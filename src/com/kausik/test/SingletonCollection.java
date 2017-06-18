@@ -10,8 +10,8 @@ public class SingletonCollection {
 
 	        String init[] = {"One", "Two", "Three", "One", "Two", "Three"};
 
-	        List list1 = new ArrayList<String>(Arrays.asList(init));
-	        List list2 = new ArrayList<String>(Arrays.asList(init));
+	        List<String> list1 = new ArrayList<String>(Arrays.asList(init));
+	        List<String> list2 = new ArrayList<String>(Arrays.asList(init));
 
 	        list1.remove("One");
 	        System.out.println("List1 after removing One"+list1);
